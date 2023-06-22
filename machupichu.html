@@ -13,118 +13,138 @@
         Viaje a Machupichu
     </h2>
     <hr>
-    <section style="border: 1px solid black; padding: 5px;">
-        <h2 style="display: inline;"><strong>Datos personales</strong></h2>
-        <section style="border: 1px solid black; padding: 5px;">
-            <form>
-                <p><strong>Nombres del Usuario:</strong></p>
-                <input type="text" placeholder="Nombre del Usuario"><br>
-                <p><strong>Apellidos del Usuario:</strong></p>
-                <input type="text" placeholder="Apellidos del Usuario"><br>
-                <p><strong>DNI:</strong></p>
-                <input type="number" placeholder="DNI, Negro"><br>
-                <p><strong>E-mail:</strong></p>
-                <input type="email" placeholder="example@gmail.com"><br>
-                <p><strong>Fecha de nacimiento:</strong></p>
-                <input type="number" style="display: inline; width: 40px;">
-                <p style="display: inline;">de </p>
-                <select>
-                    <option value="opcion1">Enero</option>
-                    <option value="opcion2">Febrero</option>
-                    <option value="opcion3">Marzo</option>
-                    <option value="opcion3">Abril</option>
-                    <option value="opcion3">Mayo</option>
-                    <option value="opcion3">Junio</option>
-                    <option value="opcion3">Julio</option>
-                    <option value="opcion3">Agosto</option>
-                    <option value="opcion3">Septiembre</option>
-                    <option value="opcion3">Octubre</option>
-                    <option value="opcion3">Noviembre</option>
-                    <option value="opcion3">Diciembre</option>
-                </select>
-                <p style="display: inline;">del </p>
-                <input type="number" style="display: inline; width: 60px;">
-        </section>
-        <section style="border: 1px solid black; padding: 5px; margin-top: 3px;">
-            <p><strong>Seleccionar fecha del pasaje:</strong></p>
-            <input type="datetime-local">
-        </section>
-        <section style="border: 1px solid black; padding: 5px; margin-top: 3px;">
-            <p><strong>Selecciona tu asiento:</strong></p>
-            <select>
-                <option value=" ">Primera clase (aleatorio)</option>
-                <option value=" ">A1</option>
-                <option value=" ">A2</option>
-                <option value=" ">A3</option>
-                <option value=" ">A4</option>
-                <option value=" ">A5</option>
-                <option value=" ">A6</option>
-                <option value=" ">A7</option>
-                <option value=" ">A8</option>
-                <option value=" ">A9</option>
-                <option value=" ">A10</option>
-                <option value=" ">Segunda clase (aleatorio)</option>
-                <option value=" ">B1</option>
-                <option value=" ">B2</option>
-                <option value=" ">B3</option>
-                <option value=" ">B4</option>
-                <option value=" ">B5</option>
-                <option value=" ">B6</option>
-                <option value=" ">B7</option>
-                <option value=" ">B8</option>
-                <option value=" ">B9</option>
-                <option value=" ">B10</option>
-                <option value=" ">Tercera clase (aleatorio)</option>
-                <option value=" ">C1</option>
-                <option value=" ">C2</option>
-                <option value=" ">C3</option>
-                <option value=" ">C4</option>
-                <option value=" ">C5</option>
-                <option value=" ">C6</option>
-                <option value=" ">C7</option>
-                <option value=" ">C8</option>
-                <option value=" ">C9</option>
-                <option value=" ">C10</option>
-            </select>
-            <p>Tipo de comida:</p>
-            <select>
-                <option value=" ">Estandar</option>
-                <option value=" ">Vegana</option>
-                <option value=" ">Vegetariana</option>
-                <option value=" ">Sin gluten</option>
-                <option value=" ">Solo liquidos</option>
-                <option value=" ">Frutos secos</option>
-                <option value=" ">Exóticos</option>
-            </select>
-        </section>
-        <section style="border: 1px solid black; padding: 5px; margin-top: 3px;">
-            <p><strong>Contacto de emergencia</p></strong>
-            <p>Nombre:</p>
-            <input type="text">
-            <p>Número de telefono:</p>
-            <input type="number">
-        </section>
-        <section style="border: 1px solid black; padding: 5px; margin-top: 3px;">
-            <p><strong>Información de pago</strong></p>
-            <p style="display: inline;">Nombre de la tarjeta: </p>
-            <input type="text" placeholder="Banco Pichincha" style="display: inline;"> <br><br>
-            <p style="display: inline;">Número de la tarjeta: </p>
-            <input type="number" placeholder="0000-0000-0000-0000" style="display: inline;">
-            <p><strong>Fecha de caducidad: </strong></p>
-            <input type="date"> <br><br>
-            <p style="display: inline;"><strong>CVV: </strong></p>
-            <input type="number" style="display: inline;">
-        </section>
-        <br>
-        <input type="submit" value="¡Hacer mi compra!">
-        <input type="reset" value="Cancelar mi progreso">
-        </form>
+    <section>
+        <fieldset>
+            <legend>
+                <h2><strong>Datos personales</strong></h2>
+            </legend>
+            <section>
+                <fieldset>
+                    <legend>
+                        <p><strong>Usuario</strong></p>
+                    </legend>
+                    <form>
+                        <p><strong>Nombres del Usuario:</strong></p>
+                        <input type="text" placeholder="Nombre del Usuario"><br>
+                        <p><strong>Apellidos del Usuario:</strong></p>
+                        <input type="text" placeholder="Apellidos del Usuario"><br>
+                        <p><strong>DNI:</strong></p>
+                        <input type="number" placeholder="DNI, Negro"><br>
+                        <p><strong>E-mail:</strong></p>
+                        <input type="email" placeholder="example@gmail.com"><br>
+                        <p><strong>Fecha de nacimiento:</strong></p>
+                        <input type="number" style="display: inline; width: 40px;">
+                        <p style="display: inline;">de </p>
+                        <select>
+                            <option value="opcion1">Enero</option>
+                            <option value="opcion2">Febrero</option>
+                            <option value="opcion3">Marzo</option>
+                            <option value="opcion3">Abril</option>
+                            <option value="opcion3">Mayo</option>
+                            <option value="opcion3">Junio</option>
+                            <option value="opcion3">Julio</option>
+                            <option value="opcion3">Agosto</option>
+                            <option value="opcion3">Septiembre</option>
+                            <option value="opcion3">Octubre</option>
+                            <option value="opcion3">Noviembre</option>
+                            <option value="opcion3">Diciembre</option>
+                        </select>
+                        <p style="display: inline;">del </p>
+                        <input type="number" style="display: inline; width: 60px;">
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <p><strong>Configuración del viaje</strong></p>
+                    </legend>
+                    <p><strong>Seleccionar fecha del pasaje:</strong></p>
+                    <input type="datetime-local">
+                    <p><strong>Selecciona tu asiento:</strong></p>
+                    <select>
+                        <option value=" ">Primera clase (aleatorio)</option>
+                        <option value=" ">A1</option>
+                        <option value=" ">A2</option>
+                        <option value=" ">A3</option>
+                        <option value=" ">A4</option>
+                        <option value=" ">A5</option>
+                        <option value=" ">A6</option>
+                        <option value=" ">A7</option>
+                        <option value=" ">A8</option>
+                        <option value=" ">A9</option>
+                        <option value=" ">A10</option>
+                        <option value=" ">Segunda clase (aleatorio)</option>
+                        <option value=" ">B1</option>
+                        <option value=" ">B2</option>
+                        <option value=" ">B3</option>
+                        <option value=" ">B4</option>
+                        <option value=" ">B5</option>
+                        <option value=" ">B6</option>
+                        <option value=" ">B7</option>
+                        <option value=" ">B8</option>
+                        <option value=" ">B9</option>
+                        <option value=" ">B10</option>
+                        <option value=" ">Tercera clase (aleatorio)</option>
+                        <option value=" ">C1</option>
+                        <option value=" ">C2</option>
+                        <option value=" ">C3</option>
+                        <option value=" ">C4</option>
+                        <option value=" ">C5</option>
+                        <option value=" ">C6</option>
+                        <option value=" ">C7</option>
+                        <option value=" ">C8</option>
+                        <option value=" ">C9</option>
+                        <option value=" ">C10</option>
+                    </select>
+                    <p>Tipo de comida:</p>
+                    <select>
+                        <option value=" ">Estandar</option>
+                        <option value=" ">Vegana</option>
+                        <option value=" ">Vegetariana</option>
+                        <option value=" ">Sin gluten</option>
+                        <option value=" ">Solo liquidos</option>
+                        <option value=" ">Frutos secos</option>
+                        <option value=" ">Exóticos</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <p><strong>Contacto de emergencia</p></strong>
+                    </legend>
+                    <p>Nombre:</p>
+                    <input type="text">
+                    <p>Número de telefono:</p>
+                    <input type="number">
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <p><strong>Información de pago</strong></p>
+                    </legend>
+                    <p style="display: inline;">Nombre de la tarjeta: </p>
+                    <input type="text" placeholder="Banco Pichincha" style="display: inline;"> <br><br>
+                    <p style="display: inline;">Número de la tarjeta: </p>
+                    <input type="number" placeholder="0000-0000-0000-0000" style="display: inline;">
+                    <p><strong>Fecha de caducidad: </strong></p>
+                    <input type="date"> <br><br>
+                    <p style="display: inline;"><strong>CVV: </strong></p>
+                    <input type="number" style="display: inline;">
+                </fieldset>
+            </section>
+            <br>
+            <input type="submit" value="¡Hacer mi compra!">
+            <input type="reset" value="Cancelar mi progreso">
+            </form>
+        </fieldset>
     </section>
     <hr>
     <a href="/index.html">
         <h2><strong><i>Atrás</i></strong></h2>
     </a>
     <img src="" alt="">
-</body>
-
-</html>
+    </body>
+    
+    </html>
